@@ -1,0 +1,19 @@
+﻿<Page x:Class="ArkadevaSrez3.Pagess.AuthAdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ArkadevaSrez3.Pagess"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AuthAdminPage">
+
+    <Grid Background="White">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,10">
+            <TextBlock>Для входа в режим администратора</TextBlock>
+            <TextBlock>необходимо ввести код</TextBlock>
+            <TextBox x:Name="TbAdminCode" Margin="0,0,0,10"></TextBox>
+            <Button Click="BtmAuthAdmin_Click" x:Name="BtmAuthAdmin">Войти</Button>
+        </StackPanel>
+    </Grid>
+</Page>
